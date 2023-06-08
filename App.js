@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const UserList = () => {
+const App = () => {
   const [users, setUsers] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -158,4 +158,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default UserList;
+export default App;
